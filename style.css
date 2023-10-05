@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+width: 100%;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25vh;
+}
+
+.headings h1, .headings h2{
+    line-height: 8rem;
+    font-size: 3.5rem;
+    
+    color: #022b30;
+}
+
+.headings h1{
+    font-family: "Sacramento", cursive;
+}
+
+.headings h2{
+    font-family: "Montserrat", sans-serif;
+}
+
+.resume{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20vh 20vh;
+}
+
+.resume img{
+    border-radius: 50%;
+    height: 190px;
+    width: 190px;
+}
+.texts h1{
+    font-weight: 300;
+    font-size: 2.5vw;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #022b30;
+}
+
+.texts p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 15vh;
+   
+}
+
+.skills h1, .skills h2{
+    font-weight: 500;
+    font-size: 2.5vw;
+    font-family: "Montserrat", sans-serif;
+   
+    color: #022b30;
+}
+
+.skills-data{
+    margin-left: 5vw;
+    margin-top: 8vh;
+    display: grid;
+    grid-template-columns: 15vw 20vw;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+}
+
+.skills-data img{
+    height: 190px;
+    width: 190px;
+}
+
+.skill-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.skills h2{
+    margin-bottom: 2vh;
+}
+.skill-text p {
+    font-size: 1vw;
+    font-family: "Montserrat", sans-serif;
+    width: 70%;
+}
+
+.about-me{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 15vh;
+}
+
+.about-me h1, .about-me h2{
+    font-weight: 700;
+   
+    font-family: "Montserrat", sans-serif;
+   
+    color: #022b30;
+}
+
+.about-me p {
+    font-size: 1vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about-me a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    width: 170px;
+    height: 50px;
+    background-color: #022b30;
+    color: white;
+    border-radius: 10px;
+}
+
+.about-me a:hover{
+    cursor: pointer;
+    background-color: #62a6af;
+}
+
+
+.contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 15vh;
+    background-color: #022b30;
+}
+
+.contact .socials{
+    display: flex;
+    gap: 50px;
+}
+
+.contact h4,.contact h3 {
+    color: white;
+}
+
+.contact h4:hover{
+    cursor: pointer;
+color:  #62a6af;
+}
